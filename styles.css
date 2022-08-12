@@ -102,7 +102,7 @@ footer{
 
 .project{
     background: rgb(255,255,255);
-    box-shadow: 1px 1px 1px rbg(0,0,0);
+    /* box-shadow: 1px 1px 1px rbg(0,0,0); */
 }
 
 .project:hover {
@@ -151,11 +151,3 @@ footer{
     margin: 0 0;
 }
 /* END FOOTER SECTION */
-
-/* incase they're on mobile devices*/
-@media {
-    .project{
-        background: rgb(255,255,255);
-        /* box-shadow: 1px 1px 1px rbg(0,0,0); */
-    }
-}
