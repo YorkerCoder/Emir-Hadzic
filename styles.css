@@ -76,16 +76,24 @@ footer{
     font-size: 50px;
     font-style: italic;
 }
+
+
+.circular-portrait { 
+    /* position:sticky;  */
+    width: 15rem; 
+    height: 20rem; 
+    overflow: hidden; 
+    border-radius: 50%; 
+} 
+.circular-portrait img { 
+    width: 100%; 
+    height: auto; }
+
 /* END WELCOME SECTIONS */
 
 /* START PROJECT SECTION */
 .projects-section {
     text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 10%;
-    padding-top: 10%;
-    /* 4.5%; */
     background-color: #45567d;
     margin: 0 0;
     height: 100vh;
@@ -98,6 +106,8 @@ footer{
     font-weight: 700;
     font-size: 2.5rem;
     margin-top: 0;
+    padding-top: 3rem;
+
 }
 
 .project{
@@ -115,6 +125,10 @@ footer{
     grid-template-rows: 3fr;
     grid-column-gap: 25px;
     grid-row-gap: 0px; 
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 0rem;
     
 }
 
