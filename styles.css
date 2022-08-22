@@ -32,7 +32,7 @@ footer{
     position: fixed; /* set the nav bar to the fixed position*/
     top: 0; /* position the navbar at the top of the page */
     width: 100%; /* set it to the full width*/
-    font-size: 1.5rem;
+    /* font-size: 1rem; */
     text-align: right;
 
 }
@@ -50,6 +50,7 @@ footer{
 
 .nav-menu li a {
     color: white;
+    font-size:1.25rem;
 }
 /* END NAV */
 
@@ -106,7 +107,7 @@ footer{
     font-weight: 700;
     font-size: 2.5rem;
     margin-top: 0;
-    padding-top: 15%;
+    padding-top: 3rem;
 
 }
 
